@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class MethodTest extends Main {
     @org.junit.Test
     public void match() throws Exception {
-        new Method().match(bla, 4.99);
+        new Method().match(5, 4.99);
     }
 
 }
